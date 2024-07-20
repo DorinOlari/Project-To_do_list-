@@ -1,0 +1,29 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+
+ body{
+     height: 100vh;
+     background:linear-gradient(45deg, dodgerblue, pink, palevioletred, peru);
+ }
+
+
+ .app{
+     font-family: "Poppins", sans-serif;
+   width: min(97vw, 600px);
+     position: absolute;
+     margin: auto;
+     left: 0;
+     right: 0;
+     top: 200px;
+ }
+
+ .form{
+     padding: 2em 2.5em;
+    background-color: black;
+     border-radius: 10px;
+     box-shadow: 0 15px 25px rgba(0,0,0,.7) ;
+ }

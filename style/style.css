@@ -27,3 +27,28 @@
      border-radius: 10px;
      box-shadow: 0 15px 25px rgba(0,0,0,.7) ;
  }
+
+
+ .input{
+     position: relative;
+     display: grid;
+     grid-template-columns: 8fr 1fr;
+     gap: 1em;
+ }
+
+
+ .input input{
+     width: 100%;
+     background-color: transparent;
+     font-size: 0.9em;
+     border: none;
+     border-bottom: 2px solid #E5E7EA;
+     color: #C0C1C4;
+     padding: 0.8em 0.5em;
+     outline: none;
+ }
+
+ h3{
+     color: #C0C1C4;
+     padding: 0.7em 0.1em;
+ }

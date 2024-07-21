@@ -41,3 +41,8 @@ const addTask = () => {
     });
 }
 addTaskBtn.addEventListener('click', addTask);
+taskInput.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        addTask();
+    }
+})

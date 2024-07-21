@@ -3,14 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
 body {
     height: 100vh;
     background: linear-gradient(45deg, dodgerblue, pink, palevioletred, peru);
 }
-
-
 .app {
     font-family: "Poppins", sans-serif;
     width: min(97vw, 600px);
@@ -20,23 +16,18 @@ body {
     right: 0;
     top: 200px;
 }
-
 .form {
     padding: 2em 2.5em;
     background-color: black;
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .7);
 }
-
-
 .input {
     position: relative;
     display: grid;
     grid-template-columns: 8fr 1fr;
     gap: 1em;
 }
-
-
 .input input {
     width: 100%;
     background-color: transparent;
@@ -47,39 +38,48 @@ body {
     padding: 0.8em 0.5em;
     outline: none;
 }
-
 h3 {
     color: #C0C1C4;
     padding: 0.7em 0.1em;
 }
-
 img {
-
     width: 50px;
     height: 50px;
 }
-
 #add-task-btn {
     width: 50px;
     height: 50px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
-
-ul {
-    list-style: none;
+#task-list {
     padding: 0;
 }
-
-li {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+.li {
+    background-color: #191932;
+    border: 1px solid #191932;
     border-radius: 4px;
     padding: 10px;
     /*margin-bottom: 10px;*/
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.checkbox {
+    width: 25px;
+}
+.goal_text_div{
+    width: 440px;
+}
+.goal_text{
+    text-decoration-line: line-through;
+}
+.delete_img{
+    max-height: 28px;
+    max-width: 28px;
+    justify-self: end;
 }

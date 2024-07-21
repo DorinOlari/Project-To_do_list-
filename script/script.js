@@ -14,7 +14,7 @@ const addTask = () => {
     }
 
     let li = document.createElement('div');
-    li.classList.add('li');
+    li.classList.add('list-item');
     let checkbox = document.createElement('div');
     li.append(checkbox);
     checkbox.classList.add('checkbox');
@@ -36,5 +36,8 @@ const addTask = () => {
     delete_bt.append(delete_img);
     delete_img.classList.add('delete_img');
     delete_img.setAttribute('src', 'img/Delete_bt.png');
+    delete_img.addEventListener('click', () =>{
+        li.remove();
+    });
 }
 addTaskBtn.addEventListener('click', addTask);
